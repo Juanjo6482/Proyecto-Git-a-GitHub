@@ -1,0 +1,36 @@
+2. Términos/Operaciones básicas/Comandos
+ a. version - mirar la versión del comando
+
+ b. Init - Iniciar/crear un repositorio
+    ls -alh - lo mismo
+
+ c. Add - Pasar todos los archivos desde el área de trabajo al staging area
+    add archivo.est - agregar un archivo en especifico
+
+ d. rm --cached archivo.est - eliminar un archivo especifico del área de preparación
+
+ e. Status - En qué estado/cambio que están los archivos y si o no han sido guardados en GIT. -(agregados, modificados y sin trakear/guardar en rep) 
+
+ f. Clone - Guardar una copia de un repositorio
+
+ g. Commit - Confirmar cambios realizados - crea nueva versión - de staging area al repositorio
+    comit -m "texto descriptivo de los cambios) - agregar archivos con un mensaje Preparación al Repositorio Local
+
+ h. Log - Información de cada commit (ids, fechas, descripción) --oneline} un estado especifico
+
+ ------i. gitignore ----------------------
+
+ j. git config --global user.name “Mi Nombre” - registrarme
+
+git config --global user.email micorreo@correo.co - resgitrar mi correo
+
+ -----k. checkout -- archivo.est - borrar los cambios hecho en el commit, o reverltirlos a antes de guardar en commit -----------------------------
+
+ l. commit --amend - modificar el mensaje del ultimo commit guardado (git commit -m "...") ------------------
+Demás comandos fuera del área local
+
+ m. commit -am"..." - (abreviasión entre add y m) el archivo se agrega al área  de preparación y escribe un mensaje al mismo tiempo
+
+ n. git push - subir repositrio a la nuebe 
+
+ o. git pull - bajar/descargar de la nube 

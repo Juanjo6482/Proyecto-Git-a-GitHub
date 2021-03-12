@@ -1,0 +1,299 @@
+Code JavaScrit
+
+let carro = "chevrolet"  <- Definir variable (en carro, guardar la marca chevrolet
+console.log(carro)
+let Carro = "hyundai
+consolo,log(Carro)
+
+alert('hola')
+
+var x = 0
+var y  = 1
+console.log(x)
+conseole.log(y)
+
+-Comentrarios:
+//comentario de solo una linea 
+/* comentario 
+de varias 
+lineas */  <- simpre se termina al reves de como comenso, y al finial de todo el texto que se quiera comenta. 
+No se puede anidar, repetir o agregar varias veces el comentario
+No -> /* hola */
+
+-Declaraciones 
+var: declarar varibles que se asignan a cualquier valor 
+Ej:  var x = 0 <- boleanos, cadenas
+
+let: varibles que etan dentro de bloque 
+let number = 24
+var resultado = duplicarVariable(24)
+console.log(resultado)
+
+fuction duplicarVariable (x, y) {
+|	let number = 2
+|	return a+b
+| console.log(resultado)
+}
+
+fuction sumar (x, y) {
+|	let number = 2
+|	return a+b
+}
+
+const: constantes, variables que no cambiaron o re-definirse 
+const nyc = 12
+console.log(myc)
+
+console.lo
+
+Tipos de datos:
+Boleoano en minuscial 
+null: valor nulo
+undefined: variable de alto nivel cuyo valor no esta definido
+number:
+Biglnt
+string
+symbol: nuevas 
+
+objeto
+arrays 
+
+consol
+
+parseint= convetir cadenas en enteros
+parsefloat= convertir cadenas en flotantes
+
+let coffees = ['lion', 'angle']
+let myObjet = {a: 8, b: 7}
+
+arlet 
+ctrl + } (tecla que cierra las llaves)
+ctrl + /
+
+A diferecia de Py, JS perimite crear varibles con caracteres espciales (ñ?)
+java perimite con ambas terminaciones (; o no) 
+Un salto de linea es como un ;
+neoVim:Programa Alternativo para JS
+
+browse prewieb
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types
+
+
+
+class 9/marzo
+
+Operadores: 
+. asignación 
+. comparación 
+. artimeticos 
+. bit a bit
+. logicos 
+. cadena 
+. condicional
+. coma
+. unarios 
+. relacionales 
+
+
+var y 
+var x 
+
+. Op Binarios: 2 operadores, como x + y, o, 1*2 
+
+. Op Unario: solo los que requieren 1 operador x++ // x+y=x 
+
+Asignación: sumar, restar, multiplicae, dividir, etc
+Asginar o definir 
+x = Y
+sumar:
+x+ = y
+x++ = y -> x+1 //se suma a si mismo una ves
+
+restar 
+x - y
+x -= y //x - y =  x 
+x-- = y // x-1
+
+Multiplicar
+x * y = z
+x *= y   //x*x se multiplica asi mismo y da 
+x** = y 
+
+División 
+x / = y  // x/y = x 
+
+Residuo 
+x %= y // x % y = y
+
+
+x <<= y // binarios, asignación a la derecha
+
+x ** y = elevar un numero, o potencia 
+x %= y =
+x% = y
+x
+
+var a = 1
+var b = 0
+var resultadoAND = a & b //operador AND Bit a Bir
+var resultadoOR = a | b
+var resultadoXDR  = a ^ b
+consoloe.log(resultadoAND)
+console 
+console.log(resultadoOR)
+
+logicos 
+var x = true 
+var y = false
+console.log(x && y) and
+Verd + verd = verd 
+verd + fals = fals > creo
+fals + verd = fals > creo 
+fals + fals = fals > creo
+
+console.log(x || y) or 
+console.log(x && y) or 
+
+x&& = 
+consol
+!x //negar 
+
+== igual (operador)
+= definir
+ 
+
+var resulrado = x && y ? console.log("da verdadero") : console.log("da falso")
+
+if()
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+
+console.error
+.dark
+https://www.logicbus.com.mx/compuertas-logicas.php
+https://developer.mozilla.org/es/docs/Web/API/Console
+
+
+Class 
+control flow - flujo de control: organisar las tareas que queremos que el code haga primero 
+var x = 0
+while (x < 10) {
+|	x++;
+|	console.log(x);
+}
+
+
+*Condicionales: 
+If...else y switch
+
+
+. if
+if (condition) {
+|	camino_1
+else
+|	camino_2
+
+var Noche = true;
+id (Noche == true) {
+|	console.log("si, hot es de noche")
+} else if(==)  Y//simepre deve ir con una codición que va a evaluar, como en IF
+|	console.log("es casi la madrugada")
+} else {
+|	console.log("No, aun es temprano")}
+
+Valores falos 
+
+var myVariable = undefined
+
+if(miVarible)
+if(!myVariable == undefined)
+=== exactamente igual
+
+switch (expre) {
+	cose Opcion_1:
+|	|	acción_1
+|	|	break;
+	cose Opcion_1:
+|	|	acción_2
+|	|	break;
+	cose Opcion_1:
+|	|	acción_1
+|	|	break;
+	cose Opcion_1:
+|	|	acción_1
+|	|	break;
+	cose Opcion_1:
+|	|	acción_1
+|	|	break;   //romper actual linea
+|	|	default; //de lo contrario
+
+se puede agregar IF detro de SWITCH y viseversa
+
+. if sicnificado:
+granja == 'papas' ? console.log("hay cultivos") : console.log("no hay nada")
+otro 
+var resultado = granja == 'papas' ? console.log("hay cultivos") : console.log("no hay nada")
+console.log(resultado)
+? es como preguntar si son iguales, en este caso compara si son iguales
+: de lo contrario
+
+https://www.youtube.com/watch?v=-VxB_96Q3Ps
+
+--------------------------------------------------------
+ delete: Elimina la pirpiedad de un objeto
+delete object.property
+delet object[propertyKey]
+delet object[index]
+delet object; solo dentro de una delcariación with
+
+Objeto es lo mismo, property es una propiedad existente 
+
+var myObj = {h: 4} // mi objeto es h, este vale 4
+no se puede borrar si se define con var
+por ogica no se puede borrar propiedades o varible no existenetes 
+---------------------------------------------------------
+
+Class 11 /
+let array = ["mora", "papaya", "limon"]
+
+for (let i = 0; i < array.length; i++) {
+|	const element = array[i]
+|	console.log(element)
+
+
+do - while: se repite hasta que una condición se cumple
+
+do 
+|	expresión
+whule (condición)
+
+let i = 0;
+do {
+|	i++
+|	consoloe.log(i)
+} while (i < 5);
+Es este caso, el ciclo se repetira hasta que i valga 5, lo que socnifica que se deve reptir 4 veces
+si se define detro de do, el valor se reiniciara y nucna cumpira la condición
+
+while: similar, se repite hasta que su instrucción se avalue como True 
+let i = 0;
+while (i <5 ){
+|	i++
+|	consoloe.log(i)
+} 
+
+la dieercia es que en 
+obj,atri.atri.array["bla"] <- objeto que teien un 
+
+Declaración labeled: estiqueta que da una istracción 
+let i = 0;
+let j = 0;
+firstWhile: while (i < 5)
+|	i++;
+|	while (j < 5) {
+|	|	j++;
+|	|	console.log("cordenadas: ", i + "," + j);
+|	|	if(j==3 && i == 3) { //
+|	|	
